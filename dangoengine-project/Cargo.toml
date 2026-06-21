@@ -8,6 +8,8 @@ edition = "2024"
 clap = { version = "4.6.1", features = ["derive"] }
 flate2 = "1.0"
 tar = "0.4"
+pest = "2.7"
+pest_derive = "2.7"
 
 [[bin]]
 name="dangoc"
